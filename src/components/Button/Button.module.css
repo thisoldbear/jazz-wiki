@@ -1,0 +1,26 @@
+.button {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: forestgreen;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: var(--font-space-mono);
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid forestgreen;
+}
+
+.button:disabled,
+.danger:disabled {
+  color: #fff;
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+.danger {
+  border-color: red;
+  color: red;
+  background-color: transparent;
+}

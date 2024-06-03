@@ -1,0 +1,12 @@
+.edit-page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 80%;
+}
+
+.edit-page__column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100%;
+}

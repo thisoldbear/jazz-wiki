@@ -1,0 +1,23 @@
+.preview {
+  padding: 20px;
+  border-radius: 10px;
+  background: #fcfbfb;
+}
+
+.preview a {
+  text-decoration: underline;
+}
+
+.preview ul {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.preview ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.placeholder {
+  font-style: italic;
+  color: #b5b2b2;
+}

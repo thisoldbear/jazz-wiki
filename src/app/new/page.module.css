@@ -1,0 +1,12 @@
+.new-page {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100%;
+}
+
+.new-page__column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100%;
+}

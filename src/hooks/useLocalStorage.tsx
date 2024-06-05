@@ -4,7 +4,7 @@ import { Document } from "@/types/types";
 export const useLocalStorage = () => {
   const getAndParseDocuments = (): Document[] | [] => {
     if (typeof localStorage !== "undefined") {
-      return JSON.parse(localStorage.getItem("documents") || "");
+      return JSON.parse(localStorage.getItem("documents") || "[]");
     }
 
     return [];
